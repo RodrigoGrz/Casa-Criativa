@@ -26,7 +26,6 @@
 
 <h2>Autor</h2>
 <p><strong>Rodrigo Grzegorczyk</strong></p>
-<img src="https://img.shields.io/badge/LinkedIn-Rodrigo%20Grzegorczyk-blue"/>
 
 Link do Projeto: https://github.com/RodrigoGrz/Casa-de-Ideias
 
