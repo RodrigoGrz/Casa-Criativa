@@ -1,3 +1,4 @@
+/* https://css-tricks.com/ */
 
 /* Global */
 
@@ -30,7 +31,6 @@ p, .description {
     letter-spacing: 0.1px;
 }
 
-
 .button {
     color: white;
     background: #ff5E84;
@@ -47,7 +47,7 @@ p, .description {
     align-items: center;
     justify-content: center;
 
-    box-shadow: 0px 8px 16px #ff5E8432;
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
 }
 
 .button:hover {
@@ -55,12 +55,10 @@ p, .description {
     text-decoration: none;
 }
 
-
 /* Padrão */
 
-
 #container {
-    width: 90%;
+    width: 80%;
     max-width: 980px;
 
     margin: 40px auto;
@@ -70,7 +68,7 @@ p, .description {
 
 #intro {
     width: 300px;
-
+    
     margin-right: 64px;
 }
 
@@ -83,14 +81,12 @@ main {
     justify-content: space-evenly;
 
     margin-bottom: 32px;
-    
-
 }
 
 button {
     background: none;
     color: #ff5E84;
-    
+
     border: none;
 
     font-size: 14px;
@@ -127,12 +123,11 @@ footer a {
 .idea {
     display: flex;
 
-    box-shadow: 0 4px 16px -8px rgba(1, 1, 1, 0);
-    background-color: #FFF;
+    background-color: #fff;
+    box-shadow: 0 4px 16px -8px rgba(1, 1,1,0.1);
     border-radius: 8px;
 
     padding: 32px;
-
     margin-bottom: 32px;
 }
 
@@ -157,7 +152,7 @@ footer a {
 }
 
 
-/* Modal */
+/* modal */
 
 #modal {
     background: #ff5E84;
@@ -167,11 +162,11 @@ footer a {
     bottom: 0;
     right: 0;
     left: 0;
-
+    
     display: flex;
-    align-items: center;
     justify-content: center;
 
+    transition: 400ms;
 
 }
 
@@ -182,12 +177,12 @@ footer a {
 #modal .content {
     margin-top: 15%;
 
-    color: white
+    color: white;
 }
 
 #modal .content h1 {
     text-align: center;
-    
+
     text-transform: uppercase;
 }
 
@@ -203,7 +198,7 @@ footer a {
     gap: 20px;
 }
 
-.content form div:nth-child(3),
+.content form div:nth-child(3), 
 .content form div:nth-child(4),
 .content form div:nth-child(5) {
     grid-column: span 2;
@@ -226,13 +221,12 @@ form textarea {
 }
 
 form label {
-    font-weight: 600px;
+    font-weight: 600;
     line-height: 32px;
     letter-spacing: 0.8px;
 }
 
 form a {
-
     width: 150px;
     height: 40px;
 
@@ -242,7 +236,7 @@ form a {
     display: flex;
     align-items: center;
     justify-content: center;
-
+    
     font-size: 14px;
     font-weight: bold;
 
@@ -253,9 +247,8 @@ form a {
     transition: 400ms;
 }
 
-
 form a:hover {
-    background: #FFF;
+    background: #fff;
     color: #ff5E84;
 
     text-decoration: none;
@@ -282,7 +275,6 @@ form button {
 form button:hover {
     background-color: #0984e3;
     color: white;
-
     text-decoration: none;
 }
 
@@ -291,11 +283,13 @@ form button:hover {
     visibility: hidden;
 }
 
-/* IDEIA.HTML */
+/* IDEIAS.HTML */
+
 #page-ideas #container {
     display: block;
 }
-#page-ideas header {
+
+header {
     display: flex;
     justify-content: space-between;
 }
