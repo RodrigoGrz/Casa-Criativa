@@ -7,26 +7,125 @@
     <title>Casa Criativa</title>
 
     <link rel="stylesheet" href="./public/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
 </head>
 <body>
-    <img src="./public/logo.png" alt="Imagem da Logo">
 
-    <p>
-        Ficar em casa em períodos longos, não deve ser nada fácil.
-    </p>
+    <div id="container">
 
-    <p>
-        Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo o que for necessário para tornar esse momento mais interessante.
-    </p>
+        <section id="intro">
 
-    <p>
-        Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicionando a sua ideia
-    </p>
+            <header>
+                <img src="./public/logo.png" alt="Imagem da Logo">
+            </header>
 
-    <button>+ Adicionar Ideia</button>
-    <button class="fat">Ver Ideias</button>
+            <main>
+                <p>
+                    Ficar em casa em períodos longos, não deve ser nada fácil.
+                </p>
+            
+                <p>
+                    Por isso, iremos catalogar ideias, <strong>brincadeiras, jogos, filmes, livros, cursos, dicas</strong> e tudo o que for necessário para tornar esse momento mais interessante.
+                </p>
+            
+                <p>
+                    Comece clicando em ver ideias para ver as ideias cadastradas e contribua adicionando a sua ideia.
+                </p>
+            </main>
 
-    <p id="footer">Com ❤ Rocketseat</p>
+            <section id="buttons">
+                <button>+ Adicionar Ideia</button>
+                <button class="fat">Ver Ideias</button>
+            </section>
+
+            <footer>
+                <p id="footer">Com ❤ <a href="#">Rodrigo</a></p>
+            </footer>
+        
+        </section>
+
+        <section id="last-ideias">
+            <div class="idea">
+                <img src="./public/telescope.png" alt="Imagem de um telescopio">
+                <div class="content">
+                    <h3>Cursos de Astronomia</h3>
+                    <p>Astronomia</p>
+                    <div class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eaque dolores nesciunt non distinctio expedita dolore velit, aliquam recusandae. Fugit magnam voluptate laudantium sapiente unde! Iure magni quaerat est eaque?
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+                
+            </div>
+
+            <div class="idea">
+                <img src="./public/video-game.png" alt="Imagem de video-game">
+                <div class="content">
+                    <h3>Jogos de Video games</h3>
+                    <p>Games</p>
+                    <div class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eaque dolores nesciunt non distinctio expedita dolore velit, aliquam recusandae. Fugit magnam voluptate laudantium sapiente unde! Iure magni quaerat est eaque?
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+                
+            </div>
+
+            <div class="idea">
+                <img src="./public/wine.png" alt="Imagem de vinho">
+                <div class="content">
+                    <h3>Receitas de comidas</h3>
+                    <p>Gastronomia</p>
+                    <div class="description">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Rem eaque dolores nesciunt non distinctio expedita dolore velit, aliquam recusandae. Fugit magnam voluptate laudantium sapiente unde! Iure magni quaerat est eaque?
+                    </div>
+                    <a href="#">Ir para a Ideia</a>
+                </div>
+                
+            </div>
+        </section>
+    </div>
+
+    <!-- Modal -->
+    
+    <div id="modal">
+        <div class="content">
+            <h1>Nova Ideia</h1>
+
+            <form action="">
+
+                <div class="input-wrapper">
+                    <label for="title">Título da ideia</label>
+                    <input type="text" name="title">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="category">Categoria</label>
+                    <input type="text" name="category">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="image">Link da imagem</label>
+                    <input type="url" name="image">
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="description">Digite uma descrição para essa ideia</label>
+                    <textarea name="description" cols="30" rows="10"></textarea>
+                </div>
+
+                <div class="input-wrapper">
+                    <label for="link">Link da ideia</label>
+                    <input type="url" name="link">
+                </div>
+                
+                <button>Salvar</button>
+
+            </form>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
