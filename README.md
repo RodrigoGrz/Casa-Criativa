@@ -1,13 +1,7 @@
-<h1>Casa de Idéias</h1>
+<h1>Casa Criativa</h1>
 
 <p align="center">
  <img src="https://i.ibb.co/FX0FKvM/note.png" alt="Screenshot page" />
-</p>
-
-<br>
-
-<p align="center">
-  <img alt="dev.finances" src=".github/jobscalc.png" width="100%">
 </p>
 
 ## 🚀 Tecnologias
@@ -27,4 +21,4 @@ Devido a Pandemia ocorrida no ano de 2020, tivemos que nos manter em casa para n
 
 ## :memo: Licença
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](.github/LICENSE.md) para mais detalhes.
+Esse projeto está sob a licença MIT.
