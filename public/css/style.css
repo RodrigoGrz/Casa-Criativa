@@ -3,6 +3,7 @@ body {
     color: #25282B;
     font-family: 'Roboto', sans-serif;
     margin: 0;
+    overflow-x: hidden;
 }
 
 a {
@@ -13,6 +14,32 @@ a {
 
 a:hover {
     text-decoration: underline;
+}
+
+.button {
+    background: #ff5E84;
+    color: white;
+
+    width: 150px;
+    height: 40px;
+
+    border-radius: 8px;
+
+    font-size: 14px;
+    font-weight: bold;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
+
+    transition: 0.2s;
+}
+
+.button:hover {
+    background-color: #0984e3;
+    text-decoration: none;
 }
 
 p, .description {
@@ -33,7 +60,7 @@ p, .description {
 #intro {
     width: 300px;
 
-    margin-right: 20px;
+    margin-right: 64px;
 }
 
 main {
@@ -63,22 +90,6 @@ button {
 
 button:hover {
     text-decoration: underline;
-}
-
-button.fat {
-    background: #ff5E84;
-    color: white;
-
-    width: 150px;
-    height: 40px;
-
-    border-radius: 6px;
-
-    box-shadow: 0px 8px 16px rgba(255, 0, 92, 0.16);
-}
-
-button.fat:hover {
-    text-decoration: none;
 }
 
 footer {
@@ -135,6 +146,8 @@ footer a {
 
     width: 100vw;
     height: 200vh;
+
+    padding-top: 64px;
 
     display: flex;
     justify-content: center;
