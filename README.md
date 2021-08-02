@@ -1,4 +1,4 @@
-<h1>Casa de Idéias</h1>
+<h1>Casa Criativa</h1>
 
 <p align="center">
  <img src="https://i.ibb.co/FX0FKvM/note.png" alt="Screenshot page" />
