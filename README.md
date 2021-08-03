@@ -14,6 +14,7 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 - NodeJS
 - Express
 - NunJucks
+- SQLite
 
 ## 💻 Projeto
 
